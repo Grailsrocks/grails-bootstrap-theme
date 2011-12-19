@@ -3,18 +3,12 @@ class BootstrapThemeGrailsPlugin {
     def version = "1.0.BUILD-SNAPSHOT"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.7 > *"
-    // the other plugins this plugin depends on
-    def dependsOn = [
-        pluginPlatform:'1.0 > *', 
-        jquery:'1.4 > *',
-        twitterBootstrap:'1.3 > *'
-    ]
+
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp"
     ]
 
-    // TODO Fill in these fields
     def author = "Marc Palmer"
     def authorEmail = "marc@grailsrocks.com"
     def title = "Twitter Bootstrap Theme"
