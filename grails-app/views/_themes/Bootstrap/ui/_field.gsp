@@ -5,7 +5,7 @@ ${field}<g:if test="${errors}"><br/>${errors}</g:if>
     <g:if test="${uiArgs.bean}">        
         <bean:label beanName="dummy" bean="${uiArgs.bean}" property="${uiArgs.name}" />
         <div class="input">
-            <bean:field beanName="dummy" type="${uiArgs.attrs.type}" bean="${uiArgs.bean}" property="${uiArgs.name}" noLabel="${true}"/>
+            <bean:field beanName="dummy" type="${uiArgs.type}" bean="${uiArgs.bean}" property="${uiArgs.name}" noLabel="${true}"/>
         </div>
     </g:if>
     <g:else>
