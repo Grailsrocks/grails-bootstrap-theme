@@ -20,15 +20,8 @@ Provides a Plugin Platform Theme based on Twitter Bootstrap
     def documentation = "http://grails.org/plugin/bootstrap-theme"
 
     def doWithConfig = { config ->
-        application {
-            grails.themes.Bootstrap.ui.button.cssClass = 'btn'
-            grails.themes.Bootstrap.ui.tab.cssClass = ''
-            grails.themes.Bootstrap.ui.field.cssClass = 'input'
-            grails.themes.Bootstrap.ui.error.cssClass = 'error'
-            grails.themes.Bootstrap.ui.table.cssClass = 'zebra-striped'
-            grails.themes.Bootstrap.ui.tableRow.cssClass = ''
-            grails.themes.Bootstrap.ui.tableRowOdd.cssClass = ''
-            grails.themes.Bootstrap.ui.tableRowEven.cssClass = ''
+        pluginPlatform {
+            themes.Bootstrap.ui.set = "Bootstrap"
         }
     }
     

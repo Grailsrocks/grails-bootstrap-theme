@@ -30,9 +30,8 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        compile ":bean-fields:1.0.BUILD-SNAPSHOT" 
-        compile ":plugin-platform:1.0.BUILD-SNAPSHOT"
-        compile ":jquery:1.6.1.1"
-        compile ":twitter-bootstrap:1.3.0.6"
+        compile ":resources:1.2-SNAPSHOT"
+        compile ":plugin-platform:1.0-SNAPSHOT"
+        compile ":bootstrap-ui:1.0-SNAPSHOT"
     }
 }
