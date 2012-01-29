@@ -2,17 +2,16 @@
     <theme:head/>
     <theme:body>
         <theme:layoutTemplate name="header"/>
-        
+        <header class="masthead">
+            <div class="inner">
+                <div class="container brand">
+                    <ui:logo width="450" height="120"/>
+                    <theme:layoutZone name="banner"/>
+                </div>
+            </div>
+        </header>
         <div class="container">
             <div class="content">
-                <div class="page-header">
-                    <div class="row">
-                        <div class="span14">
-                            <theme:logo width="450" height="150"/>
-                            <theme:layoutZone name="banner"/>
-                        </div>
-                    </div>
-                </div>
                 <div class="row">
                     <div class="span14">
                         <theme:layoutZone name="body"/>

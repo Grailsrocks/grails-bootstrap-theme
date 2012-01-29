@@ -1,7 +1,7 @@
 <div class="topbar">
     <div class="topbar-inner">
         <div class="container">
-            <theme:logo width="160" height="40"/>
+            <ui:logo class="brand" width="97"/>
             <theme:layoutZone name="navigation"/>
             <theme:layoutZone name="user-navigation"/>
         </div>
