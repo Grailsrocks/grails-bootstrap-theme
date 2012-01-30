@@ -30,7 +30,12 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        compile ":resources:1.2-SNAPSHOT"
+        build(":tomcat:$grailsVersion",
+              ":hibernate:$grailsVersion",
+              ':release:1.0.1') {
+            export = false
+        }
+        
         compile ":plugin-platform:1.0-SNAPSHOT"
         compile ":bootstrap-ui:1.0-SNAPSHOT"
     }
