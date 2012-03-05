@@ -26,3 +26,5 @@ log4j = {
 }
 
 grails.company.name = "Bootstrap Test Company Inc."
+
+grails.validateable.packages = ['org.grails.plugin.platform.test']

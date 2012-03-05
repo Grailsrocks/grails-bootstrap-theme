@@ -4,11 +4,11 @@
         <theme:layoutTemplate name="header"/>
         <header class="masthead">
             <div class="inner">
-                <div class="container brand">
-                    <ui:logo width="450" height="120"/>
+                <div class="container">
+                    <ui:logo class="brand" width="450" height="120"/>
                     <theme:layoutZone name="banner"/>
                 </div>
-            </div>
+            </div>  
         </header>
         <div class="container">
             <div class="content">

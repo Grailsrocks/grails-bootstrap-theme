@@ -36,7 +36,7 @@ grails.project.dependency.resolution = {
             export = false
         }
         
-        compile ":plugin-platform:1.0-SNAPSHOT"
+        compile ":platform-ui:1.0.M1-SNAPSHOT" 
         compile ":bootstrap-ui:1.0-SNAPSHOT"
     }
 }
