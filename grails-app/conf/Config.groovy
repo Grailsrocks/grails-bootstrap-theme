@@ -28,3 +28,5 @@ log4j = {
 grails.company.name = "Bootstrap Test Company Inc."
 
 grails.validateable.packages = ['org.grails.plugin.platform.test']
+grails.views.default.codec="none" // none, html, base64
+grails.views.gsp.encoding="UTF-8"
