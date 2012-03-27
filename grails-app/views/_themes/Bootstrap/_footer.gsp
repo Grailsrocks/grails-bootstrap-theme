@@ -1,3 +1,3 @@
 <footer>
-    <p><theme:layoutZone name="footer"/></p>
+    <p>&copy; <g:year/> <g:siteLink/></p>
 </footer>
