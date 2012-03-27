@@ -1,5 +1,5 @@
-
-<g:html>
+<!DOCTYPE html>
+<html>
     <%-- add a body to this head tag to add any meta / common resources --%>
     <theme:head/>
     <theme:body>
@@ -25,4 +25,4 @@
             <theme:layoutTemplate name="footer"/>
         </div>
     </theme:body>
-</g:html>
+</html>

@@ -1,5 +1,5 @@
-
-<g:html>
+<!DOCTYPE html>
+<html>
     <theme:head/>
     <theme:body>
         <theme:layoutTemplate name="header"/>
@@ -19,4 +19,4 @@
             <theme:layoutTemplate name="footer"/>
         </div>
     </theme:body>
-</g:html>
+</html>
