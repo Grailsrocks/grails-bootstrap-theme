@@ -13,7 +13,8 @@ grails.project.dependency.resolution = {
     repositories {
         grailsPlugins()
         grailsHome()
-        grailsCentral()
+
+        grailsRepo 'http://grails.org/plugins' 
 
         // uncomment the below to enable remote dependency resolution
         // from public Maven repositories
@@ -33,7 +34,7 @@ grails.project.dependency.resolution = {
     plugins {
         build(":tomcat:$grailsVersion",
               ":hibernate:$grailsVersion",
-              ':release:1.0.2-SNAPSHOT') {
+              ':release:2.0.2') {
             export = false
         }
         

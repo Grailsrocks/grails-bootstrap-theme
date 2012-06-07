@@ -14,18 +14,18 @@
         <div class="container">
             <div class="content">
                 <div class="row">
-                    <div class="span14">
+                    <div class="span10">
                         <theme:layoutZone name="body"/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span5">
+                    <div class="span4">
                         <theme:layoutZone name="panel1"/>
                     </div>
                     <div class="span4">
                         <theme:layoutZone name="panel2"/>
                     </div>
-                    <div class="span5">
+                    <div class="span4">
                         <theme:layoutZone name="panel3"/>
                     </div>
                 </div>

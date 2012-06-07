@@ -8,11 +8,7 @@ modules = {
     }
     
     'theme.Bootstrap' {
-        // Add your global CSS/JS files here
-        dependsOn 'bootstrap-css', 'bootstrap-tabs'
-        
         resource id:'styling', url:[plugin:'bootstrap-theme', dir:'css', file:'styling.css']
-        resource id:'hooks', url:[plugin:'bootstrap-theme', dir:'js', file:'bootstrap-hooks.js']
     }
 
     'theme.Bootstrap.sidebar' {

@@ -1,3 +1,3 @@
 <footer>
-    <p>&copy; <g:year/> <g:siteLink/></p>
+    <p>&copy; <p:year/> <p:siteLink/></p>
 </footer>
