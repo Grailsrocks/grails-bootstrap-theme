@@ -14,7 +14,7 @@
         <div class="container">
             <div class="content">
                 <div class="row">
-                    <div class="span10">
+                    <div class="span12">
                         <theme:layoutZone name="body"/>
                     </div>
                 </div>

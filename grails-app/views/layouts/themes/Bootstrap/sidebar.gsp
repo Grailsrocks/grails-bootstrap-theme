@@ -10,14 +10,14 @@
                 <div class="page-header">
                     <theme:layoutTitle/>
                 </div>
-                <div class="span14">
+                <div class="span12">
                     <theme:layoutZone name="secondary-navigation"/>
                 </div>
                 <div class="row">
-                    <div class="span10">
+                    <div class="span9">
                         <theme:layoutZone name="body"/>
                     </div>
-                    <div class="span4">
+                    <div class="span3">
                         <theme:layoutZone name="sidebar"/>
                     </div>
                 </div>

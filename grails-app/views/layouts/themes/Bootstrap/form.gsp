@@ -3,17 +3,17 @@
     <theme:head/>
     <theme:body>
         <div class="container">
-            <div class="content">
-                <div class="page-header">
-                    <theme:layoutTitle/>
-                </div>
-                <div class="row">
-                    <div class="span14">
+            <div class="row">
+                <div class="content span6 offset3">
+                    <div class="page-header">
+                        <theme:layoutTitle/>
+                    </div>
+                    <div class="row">
                         <theme:layoutZone name="body"/>
                     </div>
                 </div>
             </div>
-            <theme:layoutTemplate name="footer"/>
         </div>
+        <theme:layoutTemplate name="footer"/>
     </theme:body>
 </html>
