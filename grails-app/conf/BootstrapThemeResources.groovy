@@ -23,11 +23,15 @@ modules = {
         // Add your 'dataentry' specific CSS/JS files here
     }
 
-    'theme.Bootstrap.form' {
+    'theme.Bootstrap.dialog' {
         // Add your 'form' specific CSS/JS files here
     }
 
     'theme.Bootstrap.main' {
+        // Add your 'main' specific CSS/JS files here
+    }
+
+    'theme.Bootstrap.home' {
         // Add your 'main' specific CSS/JS files here
     }
 }
